@@ -17,10 +17,10 @@ const Pdata = [
 
   {
     key: 3,
-    name: "Drum Kit",
-    image: "images/drumkit.png",
-    para: "Html,css,Javascript",
-    link: "http://shivamtpathi.github.io/drumkit/",
+    name: "KeeperApp",
+    image: "images/keeper.png",
+    para: "React js",
+    link: "https://github.com/shivamtpathi/keeperapp",
   },
 ];
 
