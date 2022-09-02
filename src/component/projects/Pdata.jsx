@@ -19,7 +19,11 @@ const Pdata = [
     key: 3,
     name: "KeeperApp",
     image: "images/keeper.png",
+<<<<<<< HEAD
     para: "React Js",
+=======
+    para: "React js",
+>>>>>>> 12e0d72a2a55db942cc32513640104011048bf86
     link: "https://github.com/shivamtpathi/keeperapp",
   },
 ];
