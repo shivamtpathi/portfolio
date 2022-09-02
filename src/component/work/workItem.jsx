@@ -1,8 +1,10 @@
+
+
 const data=[
 {
     key:1,
     icon:"images/code-solid.png",
-    tittle:"➡️Web Development",
+    tittle:"➡️App Development",
     para:"➡️ I❤️ Development ",
     btn:"➡️Project",
     theme:"images/fweb.png",

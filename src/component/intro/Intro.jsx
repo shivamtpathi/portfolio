@@ -24,7 +24,7 @@ const Intro = () => {
   <h1>Shivam Tripathi</h1>
   <h3>Developer <span ><Typewriter
   options={{
-    strings: ['Designer', 'Programmer','YouTuber','Gamer'],
+    strings: ['Developer', 'Programmer','YouTuber','Gamer'],
     autoStart: true,
     loop: true,
   }}
