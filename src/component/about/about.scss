@@ -1,0 +1,49 @@
+@import "../../global.scss";
+.about {
+   
+  background-color: $startcolor;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+ 
+  @include mobile{
+        margin:20px 0;
+}
+
+  h2 {
+    &::-webkit-scrollbar{
+        display: none;
+    }
+    font-size: 65px;
+        font-weight: 600;
+        @include mobile{
+        font-size: 50px;
+        }
+  }
+  .content {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    &::-webkit-scrollbar{
+        display: none;
+    }
+   
+
+    p {
+      font-size: 30px;
+      align-items: center;
+      justify-content: center;
+   
+      @include mobile{
+        font-size: 20px;
+    }
+      span{
+        color: crimson;
+      }
+    }
+  }
+}

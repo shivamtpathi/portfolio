@@ -1,0 +1,51 @@
+@import "../../global.scss";
+
+.skill{
+    background-color: $startcolor;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+
+    h2{
+        font-size: 65px;
+        font-weight: 600;
+        &::-webkit-scrollbar{
+            display: none;
+        }
+        @include mobile{
+            font-size: 50px;
+            }
+    
+
+    }
+   .skillItem{
+    width: 80%;
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+font-size: 70px;
+&::-webkit-scrollbar{
+    display: none;
+}
+@include mobile{
+    font-size: 50px;
+    }
+
+    > *{
+        margin: 30px 30px;
+        cursor: pointer;
+        transition: color 1.3s ease-out;
+        @include mobile{
+           margin: 10px 20px;
+            }
+  
+        &:hover {
+          color: rgb(93, 0, 255);
+          
+        }
+    }
+   }
+
+}

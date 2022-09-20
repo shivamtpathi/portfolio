@@ -1,0 +1,13 @@
+// $maincolor:#15023a;
+$maincolor:#1e1630;
+$startcolor:#cbb9e9;
+$width:800px;
+
+
+@mixin mobile {
+    @media(max-width:#{$width}){
+        @content
+        
+    }
+    
+}
