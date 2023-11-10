@@ -10,8 +10,8 @@ const Intro = () => {
     <div className="intro" id="intro">
 
 <div className="left">
-<div className="imgContainer">
-<img src={require("../../images/shivam.png")} alt="shivam" />
+<div className="img">
+<img  src={require("../../images/shivam.png")} alt="shivam" />
 
 
 </div>

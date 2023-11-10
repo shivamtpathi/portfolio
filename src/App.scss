@@ -4,7 +4,7 @@
     .section{
         width: 100%;
         height: calc(100vh - 70px);
-        background-color: #cbb9e9;
+        background-color: $startcolor;
         top: 70px;
         position: relative;
         scroll-snap-type: y mandatory;

@@ -1,7 +1,8 @@
 @import "../../global.scss";
 
 .work {
-  background-color: rgb(151, 174, 137);
+  // background-color: rgb(151, 174, 137);
+  background-color:$startcolor;
   display: flex;
   justify-content: center;
   align-items: center;
